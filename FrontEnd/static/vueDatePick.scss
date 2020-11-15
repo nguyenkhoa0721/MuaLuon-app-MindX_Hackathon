@@ -1,0 +1,20 @@
+.vdpArrowPrev:after {
+    border-right-color: #cc99cd;
+}
+
+.vdpArrowNext:after {
+    border-left-color: #cc99cd;
+}
+
+.vdpCell.selectable:hover .vdpCellContent,
+.vdpCell.selected .vdpCellContent {
+    background: #cc99cd;
+}
+
+.vdpCell.today {
+    color: #cc99cd;
+}
+.vdpTimeUnit > input:hover,
+.vdpTimeUnit > input:focus {
+    border-bottom-color: #cc99cd;
+}
